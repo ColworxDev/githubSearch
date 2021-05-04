@@ -10,9 +10,9 @@ This is assignment for following tasks
 > Generate a report for admin based on the searches done in your application that also includes the results of the searches.
 
 Screenshots from app
-<img src="/screen1.png" height="100">
+</br><img src="/screen1.png" height="300">
 
-<img src="/screen1.png" height="100">
+<img src="/screen1.png" height="300">
 
 Improvements and updates still needed, will keep updating project time to time.
 
