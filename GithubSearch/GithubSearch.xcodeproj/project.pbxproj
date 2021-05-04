@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		002B673A2640D24B00481B3B /* ReposVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002B67392640D24B00481B3B /* ReposVM.swift */; };
+		002B673C2640D34600481B3B /* ReposTblDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002B673B2640D34600481B3B /* ReposTblDelegate.swift */; };
 		00BC8D0B2635CC1C0034565F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BC8D0A2635CC1C0034565F /* AppDelegate.swift */; };
 		00BC8D0D2635CC1C0034565F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BC8D0C2635CC1C0034565F /* SceneDelegate.swift */; };
 		00BC8D122635CC1C0034565F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00BC8D102635CC1C0034565F /* Main.storyboard */; };
@@ -40,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		002B67392640D24B00481B3B /* ReposVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReposVM.swift; sourceTree = "<group>"; };
+		002B673B2640D34600481B3B /* ReposTblDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReposTblDelegate.swift; sourceTree = "<group>"; };
 		00BC8D072635CC1C0034565F /* GithubSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GithubSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00BC8D0A2635CC1C0034565F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00BC8D0C2635CC1C0034565F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +106,8 @@
 			children = (
 				00DE83F2263766BB0018AC57 /* BaseVC.swift */,
 				00BC8D512635D8E80034565F /* ReposVC.swift */,
+				002B673B2640D34600481B3B /* ReposTblDelegate.swift */,
+				002B67392640D24B00481B3B /* ReposVM.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -387,9 +393,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				00BC8D5F2635DBA00034565F /* GitItem.swift in Sources */,
+				002B673C2640D34600481B3B /* ReposTblDelegate.swift in Sources */,
 				00BC8D0B2635CC1C0034565F /* AppDelegate.swift in Sources */,
 				00BC8D522635D8E80034565F /* ReposVC.swift in Sources */,
 				00BC8D5A2635D92B0034565F /* ApiWrapper.swift in Sources */,
+				002B673A2640D24B00481B3B /* ReposVM.swift in Sources */,
 				00BC8D0D2635CC1C0034565F /* SceneDelegate.swift in Sources */,
 				00DE83F3263766BC0018AC57 /* BaseVC.swift in Sources */,
 				00BC8D642635F9BC0034565F /* GitTblCell.swift in Sources */,
