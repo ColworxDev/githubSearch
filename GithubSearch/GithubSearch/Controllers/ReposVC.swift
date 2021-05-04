@@ -118,9 +118,9 @@ class ReposVC: BaseVC, UITableViewDelegate, UITableViewDataSource, UISearchBarDe
     private func setupSearchBar() {
         searchBar.delegate = self
         searchBar.autocapitalizationType = .none
-        searchBar.searchTextField.attributedPlaceholder = NSAttributedString(string: searchBarPlaceholder, attributes: [NSAttributedString.Key.foregroundColor : UIColor.white])
-
-
+        if #available(iOS 13.0, *) {
+            searchBar.searchTextField.attributedPlaceholder = NSAttributedString(string: searchBarPlaceholder, attributes: [NSAttributedString.Key.foregroundColor : UIColor.white])
+        } 
         // Make search cursor visible (not white)
         UITextField.appearance(whenContainedInInstancesOf: [UISearchBar.self]).tintColor = UIColor.black
     }

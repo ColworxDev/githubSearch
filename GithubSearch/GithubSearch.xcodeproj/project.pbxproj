@@ -89,6 +89,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		002B67332640CB8000481B3B /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				00BC8D5E2635DBA00034565F /* GitItem.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		002B67342640CB9500481B3B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				00DE83F2263766BB0018AC57 /* BaseVC.swift */,
+				00BC8D512635D8E80034565F /* ReposVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		002B67352640CBAA00481B3B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				00BC8D592635D92B0034565F /* ApiWrapper.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		002B67362640CBBC00481B3B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				00BC8D632635F9BC0034565F /* GitTblCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		002B67372640CBC900481B3B /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				00BC8D0A2635CC1C0034565F /* AppDelegate.swift */,
+				00BC8D0C2635CC1C0034565F /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		002B67382640CBED00481B3B /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				00BC8D102635CC1C0034565F /* Main.storyboard */,
+				00BC8D152635CC230034565F /* LaunchScreen.storyboard */,
+			);
+			path = Layouts;
+			sourceTree = "<group>";
+		};
 		00BC8CFE2635CC1C0034565F = {
 			isa = PBXGroup;
 			children = (
@@ -114,16 +165,13 @@
 		00BC8D092635CC1C0034565F /* GithubSearch */ = {
 			isa = PBXGroup;
 			children = (
-				00BC8D0A2635CC1C0034565F /* AppDelegate.swift */,
-				00BC8D0C2635CC1C0034565F /* SceneDelegate.swift */,
-				00BC8D632635F9BC0034565F /* GitTblCell.swift */,
-				00BC8D5E2635DBA00034565F /* GitItem.swift */,
-				00DE83F2263766BB0018AC57 /* BaseVC.swift */,
-				00BC8D512635D8E80034565F /* ReposVC.swift */,
-				00BC8D592635D92B0034565F /* ApiWrapper.swift */,
-				00BC8D102635CC1C0034565F /* Main.storyboard */,
+				002B67372640CBC900481B3B /* AppDelegate */,
+				002B67362640CBBC00481B3B /* View */,
+				002B67332640CB8000481B3B /* Modal */,
+				002B67342640CB9500481B3B /* Controllers */,
+				002B67352640CBAA00481B3B /* Network */,
+				002B67382640CBED00481B3B /* Layouts */,
 				00BC8D132635CC230034565F /* Assets.xcassets */,
-				00BC8D152635CC230034565F /* LaunchScreen.storyboard */,
 				00BC8D182635CC230034565F /* Info.plist */,
 			);
 			path = GithubSearch;
@@ -523,6 +571,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = GithubSearch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -542,6 +591,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = GithubSearch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
