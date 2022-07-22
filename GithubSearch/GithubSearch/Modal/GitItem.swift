@@ -8,7 +8,7 @@
 import Foundation
 
 
-class GitItem {
+struct GitItem {
     var name: String?
     var fullName: String?
     var score: Double?
